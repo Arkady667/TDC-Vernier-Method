@@ -1,0 +1,7 @@
+Running: xsim.dir/symulacja_tdc_vo_behav/xsimk.exe -simmode gui -wdb symulacja_tdc_vo_behav.wdb -simrunnum 0 -socket 52490
+Design successfully loaded
+Design Loading Memory Usage: 18700 KB (Peak: 18700 KB)
+Design Loading CPU Usage: 124 ms
+Simulation completed
+Simulation Memory Usage: 19000 KB (Peak: 19000 KB)
+Simulation CPU Usage: 124 ms

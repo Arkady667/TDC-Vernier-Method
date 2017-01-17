@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Arkadiusz/Documents/Vivado_Projects/TDC_VernierOsc/TDC_VernierOsc.srcs/sources_1/new/INV_chain_13.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity INV_chain_13
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Arkadiusz/Documents/Vivado_Projects/TDC_VernierOsc/TDC_VernierOsc.srcs/sim_1/new/symulacja_tdc_vo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity symulacja_tdc_vo

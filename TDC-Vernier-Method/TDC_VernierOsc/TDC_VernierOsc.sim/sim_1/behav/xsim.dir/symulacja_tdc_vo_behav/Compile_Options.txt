@@ -1,0 +1,1 @@
+-wto "1e459fb09b6a4c2d8d3afa8b7e4e57bb" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "symulacja_tdc_vo_behav" "xil_defaultlib.symulacja_tdc_vo" -log "elaborate.log" 

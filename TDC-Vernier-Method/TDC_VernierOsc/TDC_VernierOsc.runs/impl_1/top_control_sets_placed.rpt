@@ -1,0 +1,63 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Mon Jan 16 09:12:09 2017
+| Host         : Arkady running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7vx485t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    10 |
+| Minimum Number of register sites lost to control set restrictions |    58 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              14 |            8 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               8 |            2 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+-----------------------------------+------------------------------------+------------------+----------------+
+|         Clock Signal        |           Enable Signal           |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-----------------------------+-----------------------------------+------------------------------------+------------------+----------------+
+|  STOP_IBUF_BUFG             |                                   | Uklad_WE_cmp/DCNT2/Q_reg_0         |                1 |              1 |
+|  START_IBUF_BUFG            |                                   | Uklad_WE_cmp/DCNT2/Q_reg_0         |                1 |              1 |
+| ~Uklad_WE_cmp/DST2/Pulse_st |                                   | Uklad_WE_cmp/DCNT2/Q_reg_0         |                1 |              1 |
+| ~Uklad_WE_cmp/DSP2/Pulse_sp |                                   | Uklad_WE_cmp/DCNT2/Q_reg_0         |                1 |              1 |
+|  Uklad_WE_cmp/DST1/D        |                                   | Q_reg_i_1_n_0                      |                1 |              1 |
+|  Uklad_WE_cmp/DSP1/Q_reg_0  |                                   | Q_reg_i_1__0_n_0                   |                1 |              1 |
+|  Oscylator_start/CO[0]      |                                   | Uklad_WE_cmp/DCNT1/AR[0]           |                1 |              4 |
+|  Oscylator_start/CO[0]      | Licznik_start/eqOp3_in            | Uklad_WE_cmp/DCNT1/AR[0]           |                1 |              4 |
+|  Oscylator_stop/CO[0]       |                                   | Uklad_WE_cmp/DCNT2/count_reg[0][0] |                1 |              4 |
+|  Oscylator_stop/CO[0]       | Licznik_stop/count[11]_i_1__0_n_0 | Uklad_WE_cmp/DCNT2/count_reg[0][0] |                1 |              4 |
++-----------------------------+-----------------------------------+------------------------------------+------------------+----------------+
+
+
